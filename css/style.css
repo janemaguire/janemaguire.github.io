@@ -3,19 +3,23 @@
 }
 
 body {
-  /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a3/18/65/a31865449bb4db7c3dc70e7906097852.png");*/
   background-image: url("http://babasouk.ca/wp-content/uploads/2014/12/wrapping-paper-dots-11x17.jpg");
-  /*background-image: url("https://www.xmple.com/wallpaper/black-white-lines-streaks-stripes-1920x1080-c2-ffffff-000000-l2-42-59-a-45-f-1.svg");
-  background-image: url("https://www.xmple.com/wallpaper/white-polka-dots-spots-yellow-3840x2160-c2-ffffff-ffd700-l2-146-315-a-240-f-3.svg");*/
   background-size: cover;
-  color: black;
-  font-family: 'Lato', sans-serif;
+
   font-size: 20px;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Cutive', serif;
 }
 
 h3 {
   font-weight: bolder;
   font-size: 28px;
+  font-family: 'Cutive', serif;
 }
 
 .side {
@@ -26,8 +30,7 @@ h3 {
   color: black;
   padding: 20px;
   position: static, relative;
-  display: inline-block;
-  text-align: left;
+  display: inline;
 }
 
 .content {
@@ -55,7 +58,7 @@ float: left;
 }
 
 .link {
-  padding: 8px;
+  padding: 8px 8px 0px 8px;
   margin: 8px 8px 8px 0px;
   border: none;
   background-color: white;
@@ -64,16 +67,7 @@ float: left;
   border-radius: 3px;
   text-decoration: none;
   display: inline-block;
-}
-
-.projects {
-  background-color: white;
-  padding: 10px;
-  color: black;
-  border: 5px black solid;
-  box-shadow: 10px 10px 5px #888888;
-  margin: 10px 10px 30px 10px;
-  border-radius: 3px;
+  font-family: 'Cutive', serif;
 }
 
 .box {
@@ -94,4 +88,15 @@ float: left;
   float: left;
   display: inline;
   margin-right: 20px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .side {
+    width: 90%;
+    float: left;
+    color: black;
+    padding: 20px;
+    display: inline;
+  }
 }
