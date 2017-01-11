@@ -3,10 +3,10 @@
 }
 
 body {
-  /*// background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a3/18/65/a31865449bb4db7c3dc70e7906097852.png");*/
+  /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a3/18/65/a31865449bb4db7c3dc70e7906097852.png");*/
   background-image: url("http://babasouk.ca/wp-content/uploads/2014/12/wrapping-paper-dots-11x17.jpg");
-  /*// background-image: url("https://www.xmple.com/wallpaper/black-white-lines-streaks-stripes-1920x1080-c2-ffffff-000000-l2-42-59-a-45-f-1.svg");*/
-  /*// background-image: url("http://blogs.brighton.ac.uk/dar15/files/2015/02/bg-orange-black-1eraram.jpg");*/
+  /*background-image: url("https://www.xmple.com/wallpaper/black-white-lines-streaks-stripes-1920x1080-c2-ffffff-000000-l2-42-59-a-45-f-1.svg");
+  background-image: url("https://www.xmple.com/wallpaper/white-polka-dots-spots-yellow-3840x2160-c2-ffffff-ffd700-l2-146-315-a-240-f-3.svg");*/
   background-size: cover;
   color: black;
   font-family: 'Lato', sans-serif;
@@ -28,11 +28,9 @@ h3 {
   position: static, relative;
   display: inline-block;
   text-align: left;
-  align-items: flex-end;
 }
 
 .content {
-  height: 90%;
   position: absolute;
   background-color: black;
   color: white;
@@ -44,6 +42,7 @@ h3 {
   padding: 20px;
   box-shadow: 10px 10px 5px #888888;
   border-radius: 3px;
+  display: inline-block;
 }
 
 .main {
@@ -57,11 +56,14 @@ float: left;
 
 .link {
   padding: 8px;
-  margin: 8px;
+  margin: 8px 8px 8px 0px;
   border: none;
   background-color: white;
+  color: black;
   font-family: 'Lato', sans-serif;
   border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .projects {
@@ -75,28 +77,21 @@ float: left;
 }
 
 .box {
-  height: 330px;
+  color: white;
+  width: 96%;
   padding: 10px;
-  border: 5px black solid;
-  background: white;
+  border: 5px white solid;
+  background: black;
   box-shadow: 10px 10px 5px #888888;
   text-align: left;
   font-size: 20px;
   margin: 10px 10px 30px 10px;
   border-radius: 3px;
+  display: inline-block;
 }
 
 .box img {
   float: left;
-  display: inline-block;
+  display: inline;
   margin-right: 20px;
-}
-
-.main button {
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
-  margin-right: 10px;
-  border: none;
-  border-radius: 3px;
 }
