@@ -3,11 +3,10 @@
 }
 
 body {
-  // background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a3/18/65/a31865449bb4db7c3dc70e7906097852.png");
-  // background-image: url("http://babasouk.ca/wp-content/uploads/2014/12/wrapping-paper-dots-11x17.jpg");
-  // background-image: url("https://www.xmple.com/wallpaper/black-white-lines-streaks-stripes-1920x1080-c2-ffffff-000000-l2-42-59-a-45-f-1.svg");
-  // background-image: url("http://blogs.brighton.ac.uk/dar15/files/2015/02/bg-orange-black-1eraram.jpg");
-  background-color: skyblue;
+  /*// background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a3/18/65/a31865449bb4db7c3dc70e7906097852.png");*/
+  background-image: url("http://babasouk.ca/wp-content/uploads/2014/12/wrapping-paper-dots-11x17.jpg");
+  /*// background-image: url("https://www.xmple.com/wallpaper/black-white-lines-streaks-stripes-1920x1080-c2-ffffff-000000-l2-42-59-a-45-f-1.svg");*/
+  /*// background-image: url("http://blogs.brighton.ac.uk/dar15/files/2015/02/bg-orange-black-1eraram.jpg");*/
   background-size: cover;
   color: black;
   font-family: 'Lato', sans-serif;
