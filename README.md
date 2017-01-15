@@ -4,4 +4,4 @@ For my first portfolio site I went back to basics with HTML and CSS. This single
 
 This site features all my projects from the Web Development Immersive course at General Assembly London, as well as a few other sites I have built using content management systems.
 
-(http://janemaguire.co.uk)
+http://janemaguire.co.uk
