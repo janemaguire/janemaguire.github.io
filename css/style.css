@@ -3,8 +3,6 @@
 }
 
 body {
-  /*background-image: url("http://previews.123rf.com/images/teploleta/teploleta1507/teploleta150700047/42210009-Hand-drawn-black-and-white-scribbles-circles-pattern-Abstract-vector-background-Stock-Vector.jpg");*/
-  /*background-image: url("http://previews.123rf.com/images/elenarolau/elenarolau1503/elenarolau150300018/37553690-Splash-vecteur-seamless-Main-noir-et-blanc-dessin-pulv-risation-texture-Taches-noires-sur-fond-blanc-Banque-d'images.jpg");*/
   background-image: url("http://www.moelmoel.com/i/2016/08/best-black-and-white-stripes-ideas-diagonal-shape-pattern-wallpaper-art-design-colors-combination-horizontal-big-interesting-fabulous-with-frames-scheme-astonishing-splendid-exquisite.png");
   background-size: cover;
   font-weight: 300;
@@ -77,7 +75,7 @@ float: left;
   border: 2px black solid;
   background: white;
   color: black;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px darkgrey;
   text-align: left;
   margin: 10px 10px 30px 10px;
   border-radius: 3px;
