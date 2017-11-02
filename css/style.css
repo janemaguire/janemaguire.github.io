@@ -24,7 +24,7 @@ h3 {
 }
 
 .side {
-    width: 40vw;
+    width: 400px;
     height: 100vh;
     overflow: hidden;
     float: left;
@@ -52,8 +52,12 @@ h3 {
     padding: 20px;
     height: 100vh;
     overflow-y: scroll;
-    width: 60vw;
+    width: calc(100% - 400px);
     float: left;
+}
+
+.skills {
+    font-family: 'Merriweather', serif;
 }
 
 .link {
