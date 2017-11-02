@@ -1,106 +1,112 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-image: url("../images/stripes.png");
-  background-size: cover;
-  font-weight: 300;
-  font-size: 20px;
-  color: white;
-  font-family: 'Pontano Sans', sans-serif;
+    background-image: url("../images/stripes.png");
+    background-size: cover;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
 }
 
 h1 {
-  font-weight: 900;
-  font-size: 38px;
-  font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 38px;
+    font-family: 'Merriweather', serif;
 }
 
 h3 {
-  font-weight: 900;
-  font-size: 32px;
-  font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
 }
 
 .side {
-  width: 400px;
-  height: 100vh;
-  overflow: scroll;
-  float: left;
-  padding: 20px;
-  position: static, relative;
-  display: inline;
+    width: 40vw;
+    height: 100vh;
+    overflow: hidden;
+    float: left;
+    padding: 20px;
+    position: static, relative;
+    display: inline;
 }
 
 .content {
-  position: absolute;
-  background-color: white;
-  color: black;
-  top: 20px;
-  left: 20px;
-  right: calc(100% - 380px);
-  border: 2px black solid;
-  margin: 10px;
-  padding: 20px;
-  box-shadow: 10px 10px 5px #888888;
-  border-radius: 3px;
-  display: inline-block;
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 20px;
+    left: 20px;
+    right: calc(100% - 380px);
+    border: 2px black solid;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 3px;
+    display: inline-block;
 }
 
 .main {
-padding: 20px;
-height: 100vh;
-overflow: scroll;
-width: calc(100% - 400px);
-float: left;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 60vw;
+    float: left;
 }
 
 .link {
-  padding: 4px 8px 4px 8px;
-  margin: 8px 8px 8px 0px;
-  border: 1px solid black;
-  background-color: white;
-  color: black;
-  border-radius: 3px;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Pontano Sans', sans-serif;
-  font-weight: 400;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 8px 8px 0px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 400;
+}
+
+.inline-link {
+    color: dimgrey;
+    text-decoration: none;
+    border-bottom: dashed 1px dimgrey;
 }
 
 .box {
-  width: 96%;
-  padding: 10px;
-  border: 2px black solid;
-  background: white;
-  color: black;
-  box-shadow: 10px 10px 5px darkgrey;
-  text-align: left;
-  margin: 10px 10px 30px 10px;
-  border-radius: 3px;
-  display: inline-block;
+    width: 96%;
+    padding: 10px;
+    border: 2px black solid;
+    background: white;
+    color: black;
+    box-shadow: 10px 10px 5px darkgrey;
+    text-align: left;
+    margin: 10px 10px 30px 10px;
+    border-radius: 3px;
+    display: inline-block;
 }
 
 .box img {
-  float: left;
-  display: inline;
-  margin-right: 20px;
-  max-width: 100%;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    max-width: 100%;
 }
 
 .box .link {
-  color: black;
-  background-color: white;
-  border: 1px solid black;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
 
 @media only screen and (max-width: 500px) {
-  .side {
-    width: 90%;
-    float: left;
-    color: black;
-    padding: 20px;
-    display: inline;
-  }
+    .side {
+        width: 90%;
+        float: left;
+        color: black;
+        padding: 20px;
+        display: inline;
+    }
 }
