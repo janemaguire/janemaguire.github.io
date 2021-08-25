@@ -3,57 +3,34 @@
 }
 
 body {
-    background-image: url("../images/stripes.png");
-    background-size: cover;
+    background-color: black;
     font-weight: 300;
     font-size: 20px;
     color: white;
     font-family: 'Pontano Sans', sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
     font-weight: 900;
-    font-size: 38px;
     font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
 }
 
 h3 {
-    font-weight: 900;
-    font-size: 32px;
-    font-family: 'Merriweather', serif;
-}
-
-.side {
-    width: 400px;
-    height: 100vh;
-    overflow: hidden;
-    float: left;
-    padding: 20px;
-    position: static, relative;
-    display: inline;
-}
-
-.content {
-    position: absolute;
-    background-color: white;
-    color: black;
-    top: 20px;
-    left: 20px;
-    right: calc(100% - 380px);
-    border: 2px black solid;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 10px 10px 5px #888888;
-    border-radius: 3px;
-    display: inline-block;
+    font-size: 28px;
 }
 
 .main {
-    padding: 20px;
-    height: 100vh;
-    overflow-y: scroll;
-    width: calc(100% - 400px);
-    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
 }
 
 .skills {
@@ -73,44 +50,38 @@ h3 {
     font-weight: 400;
 }
 
+.link:hover, .link:focus {
+  background-color: hotpink;
+}
+
 .inline-link {
-    color: dimgrey;
+    color: hotpink;
     text-decoration: none;
-    border-bottom: dashed 1px dimgrey;
+    border-bottom: dashed 1px hotpink;
 }
 
 .box {
-    width: 96%;
-    padding: 10px;
+    width: 90%;
+    padding: 20px;
     border: 2px black solid;
     background: white;
     color: black;
-    box-shadow: 10px 10px 5px darkgrey;
-    text-align: left;
-    margin: 10px 10px 30px 10px;
+    box-shadow: 10px 10px 20px hotpink;
+    text-align: center;
+    margin: 40px auto;
     border-radius: 3px;
     display: inline-block;
 }
 
 .box img {
-    float: left;
-    display: inline;
-    margin-right: 20px;
     max-width: 100%;
 }
 
-.box .link {
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-}
-
-@media only screen and (max-width: 500px) {
-    .side {
-        width: 90%;
-        float: left;
-        color: black;
-        padding: 20px;
-        display: inline;
+@media only screen and (min-width: 900px) {
+    body {
+        margin: 60px;
+    }
+    .box {
+        width: 800px;
     }
 }
